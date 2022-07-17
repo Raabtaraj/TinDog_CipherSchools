@@ -1,0 +1,175 @@
+/*-----TAG SELECTORS-----*/
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+
+/*------ID Selectors------*/
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#features{
+  background-color: white;
+  padding: 3% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+  padding: 3% 10%;
+  text-align: center;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: 'Montserrat-Black',sans-serif;
+  padding: 80px;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  margin: 80px auto 30px ;
+}
+/*-----Class Selectors------*/
+.Title-h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*-----Navigation Bar-------*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+   padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat-Light',sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-btn{
+  margin-top: 20px;
+}
+
+
+/*------TITLE SECTION-------*/
+.title-img{
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+
+/*------FEATURES SECTION----*/
+.Features-h3{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 1.5rem;
+}
+.Feature-p{
+  color: #8f8f8f;
+}
+
+.col-lg-4{
+  text-align: center;
+  padding: 8% 5% 5%;
+}
+.Icon-img{
+  color: #ef8172;
+  margin-bottom: 2rem;
+}
+.Icon-img:hover{
+  color: #ff4c68;
+}
+
+/*-----------TESTIMONIAL SECTION-------*/
+.Testimonials-h2{
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Testimonials-img{
+  width: 8%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+.carousel-item{
+    padding: 3% 10%;
+}
+
+
+
+/*--------PRESS-SECTION-------*/
+ .section-img{
+   width: 12rem;
+   margin: 3rem;
+ }
+
+/*-------PRICING SECTION-------*/
+.pricing-h2{
+  font-weight: bolder;
+}
+.pricing-h3{
+  font-weight: 500;
+}
+.card{
+ width: auto;
+}
+.btn-pricing {
+  width: 280px;
+}
+.cta-h2{
+  font-weight: bolder;
+  font-size: 2;
+  color: white;
+}
+
+.footer-btn{
+  margin: 15px;
+}
+
+.icon-footer{
+    margin: 15px;
+}
+
+
+
+/*------MEDIA QUERY-----*/
+@media (max-width: 1100px){
+      .title-img{
+        position: static;
+        margin-top: 100px;
+        transform: rotate(0);
+      }
+      #title{
+        text-align: center;
+      }
+}
